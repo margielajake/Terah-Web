@@ -10,10 +10,18 @@ const Hero = () => {
         can use just like any other credit or debit card, but with some added
         benefits and customizable way than traditional banking.
       </p>
-      <div className="relative overflow-hidden">
-        <img src={gradient} alt="gradient" className="absolute" />
-        <img src={BlackDebit} alt="debit-card2" className="absolute w-[60%]" />
-        <img src={PurpleDebit} alt="debit-card" />
+      <div className="">
+        <img
+          src={BlackDebit}
+          alt="debit-card2"
+          className="absolute w-[60%] z-10 top-72 right-10 "
+        />
+        <img
+          src={PurpleDebit}
+          alt="debit-card"
+          className="absolute w-[60%] top-96 left-20 "
+        />
+        <img src={gradient} alt="gradient" className="" />
       </div>
     </div>
   );

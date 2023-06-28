@@ -1,3 +1,4 @@
+import Clients from "./Components/Clients";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="bg-black text-white">
       <Navbar />
       <Hero />
+      <Clients />
     </div>
   );
 }
