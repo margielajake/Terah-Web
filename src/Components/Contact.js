@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <button className="bg-purple-700 px-8 py-2 rounded-md">Contact Us</button>
+    <button>Contact Us</button>
   );
 };
 
