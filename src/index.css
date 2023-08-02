@@ -106,28 +106,36 @@ nav {
 }
 
 .gradient-container {
-  position: absolute;
+  position: relative;
+  border: 2px solid red;
+  height: 70vh;
+  overflow: hidden;
 }
 
 .gradient {
-  width: 70rem;
-  position: relative;
-  bottom: 18rem;
-  right: 10rem;
+  width: 100%;
+  position: absolute;
 }
 
 .purple-debit {
   width: 39.48581rem;
-  position: relative;
-  right: 12rem;
-  bottom: 37rem;
+  position: absolute;
+  left: 0rem;
+  top: 10rem;
 }
 
 .black-debit {
   width: 39.48581rem;
-  position: relative;
-  left: 5rem;
-  bottom: 91rem;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+}
+
+/* Clients Section */
+
+.clients-section {
+  background-color: #fff;
+  color: #000;
 }
 
 /* Button */
