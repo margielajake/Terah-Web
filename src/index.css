@@ -107,7 +107,6 @@ nav {
 
 .gradient-container {
   position: relative;
-  border: 2px solid red;
   height: 70vh;
   overflow: hidden;
 }
@@ -136,6 +135,23 @@ nav {
 .clients-section {
   background-color: #fff;
   color: #000;
+  padding-block: 15rem;
+}
+
+.client-logo {
+  width: 7.95231rem;
+}
+
+.client-tagline {
+  text-align: center;
+  padding-inline: 30rem;
+  margin-bottom: 4rem;
+}
+
+.client {
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 4rem;
 }
 
 /* Button */
